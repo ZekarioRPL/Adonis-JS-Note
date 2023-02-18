@@ -1,0 +1,18 @@
+https://gist.github.com/patrickodacre/31590fa7ef9983a94444fba90cc63ec3
+
+install Database
+
+* npm i @adonisjs/lucid
+
+make model, migration, controller
+
+* node ace make:model Project --migration --controller
+
+* node ace migartion:run
+* node ace migartion:rollback
+
+Make Seeder 
+* node ace make:seeder NoteSeeder
+
+run seeder
+* node ace db:seed
